@@ -1,0 +1,17 @@
+{
+  "name": "JioCinema Add blocker extension",
+  "version": "1",
+  "description":"This extension blocks the ads of JioCinema.",
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://*.jiocinema.com/*"],
+  "manifest_version": 3
+}
