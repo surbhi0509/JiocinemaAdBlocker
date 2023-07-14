@@ -13,5 +13,8 @@
   },
   "permissions": ["declarativeNetRequest"],
   "host_permissions": ["*://*.jiocinema.com/*"],
+  "action":{
+    "default_popup":"popup.html"
+},
   "manifest_version": 3
 }
