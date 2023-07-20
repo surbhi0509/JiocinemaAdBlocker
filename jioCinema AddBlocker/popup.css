@@ -1,7 +1,11 @@
 .container{
     width: 300px;
     height: 300px;
-    background-color: blanchedalmond;
+    background-color: black;
+    color: white;
+}
+body{
+ background-color:#bb3261 ; 
 }
 .logo img{
     margin: 10px;
@@ -43,9 +47,17 @@
     padding: 16px 0 16px 44px;
     margin-left: 14px;
     user-select: none;
-    color: black;
+    color: #bb3261;
   }
-  
+
+  .toggletext{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: 700;
+}
   .switch-label:before,
   .switch-label:after {
     content: "";
@@ -63,7 +75,7 @@
     left: 1px;
     width: 34px;
     height: 14px;
-    background-color: black;
+    background-color: pink;
     border-radius: 8px;
   }
   .switch-label:after {
@@ -79,10 +91,10 @@
     display: none;
   }
   .switch-input:checked + .switch-label:before {
-    background-color: #a5d6a7;
+    background-color: pink;
   }
   .switch-input:checked + .switch-label:after {
-    background-color: #4caf50;
+    background-color: #D81B60;
     -ms-transform: translate(80%, -50%);
     -webkit-transform: translate(80%, -50%);
     transform: translate(80%, -50%);
@@ -148,7 +160,7 @@
   /*.rating-wrapper label:hover,*/
   .rating-wrapper:hover label::before
   /*.rating-wrapper label:checked ~ label  */ {
-    color: #ffb300;
+    color: #cd547e;
   }
   .rating-wrapper {
     pointer-events: none;
@@ -161,6 +173,6 @@
     opacity: 1;
   }
 .ratting img :hover{
-    background-color: yellow;
+    background-color: #cd547e;
 }
 
